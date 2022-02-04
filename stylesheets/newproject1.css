@@ -34,8 +34,7 @@ body
   text-align: center;
   color: transparent;
   margin-top: 80px;
-  animation: reveal 3000ms ease-in-out forwards 200ms,
-    glow 2500ms linear infinite 2000ms;
+  animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
 }
 
 @keyframes reveal {
@@ -277,4 +276,5 @@ h5{
     font-family: sans-serif;
     margin : 100px auto 0px;
     color: darkblue;
+    animation: reveal 3000ms ease-in-out forwards 200ms,glow 2500ms linear infinite 2000ms;
 }
